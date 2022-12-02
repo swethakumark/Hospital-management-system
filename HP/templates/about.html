@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title%}
+About
+{% endblock %}
+
+{% block content%}
+<h1 style="text-align:center" >About Page</h1><br>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            .images {
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0 50px;
+                padding: 30px;}
+    
+            .photo {
+                max-width: 31.333%;
+                padding: 0 10px;
+                height: 240px;
+            }
+            .photo1 {
+                max-width: 31.333%;
+                padding: 0 10px;
+                height: 240px;
+            }
+            .photo2 {
+                max-width: 31.333%;
+                padding: 0 10px;
+                height: 240px;
+            }
+            .photo3 {
+                max-width: 31.333%;
+                padding: 0 10px;
+                height: 240px;
+            }
+            .photo4 {
+                max-width: 31.333%;
+                padding: 0 10px;
+                height: 240px;
+            }
+            .photo5 {
+                max-width: 31.333%;
+                padding: 0 10px;
+                height: 240px;
+            }
+            .photo6 {
+                max-width: 31.333%;
+                padding: 0 10px;
+                height: 240px;
+            }
+            .photo7 {
+                max-width: 31.333%;
+                padding: 0 10px;
+                height: 240px;
+            }
+            .photo9 {
+                max-width: 31.333%;
+                padding: 0 10px;
+                height: 240px;
+            }
+        </style>
+    </head>
+    <body>
+         <h3 class="heading">Services & Facilities</h3>
+         <p>City Hospital offers the very highest standards of clinical skills and nursing care across a wide range of specialties. We are offering a wide range of services in healthcare sector. Our focus is on high quality service at an affordable price. Our promise is a quality-driven service, and our aim is to ensure affordable access to healthcare services to all categories of people.
+            City Hospital pays attention to the minute details and well being of our patients. We constantly strive for a quality culture, a culture that stresses continuous improvements and excellence in patient care and services. Our dedication to providing care at the highest level is reflected in our transparent approach to reporting our quality data and treatment. At City, taking care of the healthcare needs of patients goes beyond the medical services that we provide.</p>
+        <h3>General & Facilities</h3>
+        <div class="images">
+        <div class="photo">
+        <h6>.Ambulance service</h6>
+        <img src="{% static 'images\ambulance.jpg'  %}" width=300 px/>
+        </div>
+        <div class="photo1">
+        <h6>.Lab service</h6>
+        <img src="{% static 'images\Lab.jpg'  %}" width=300 px/>
+        </div>
+        <div class="photo2">
+        <h6>.Pharmacy service</h6>
+        <img src="{% static 'images\Pharmacy.jpg'  %}" width=300 px/>
+        </div>
+        <div class="photo3">
+        <h6>.Suit Rooms, AC /Non AC rooms</h6>
+        <img src="{% static 'images\Rooms.jpg'  %}" width=300 px/>
+        </div>
+        <div class="photo4">
+        <h6>.Medical ICU,Surgical ICU</h6>
+        <img src="{% static 'images\icu.jpg'  %}" width=300 px/>
+        </div>
+        <div class="photo5">
+        <h6>.Spacious General Wards</h6></p>
+        <img src="{% static 'images\Wards.jpg'  %}" width=300 px/>
+        </div>
+        <div class="photo6">
+        <h6>.Neuro Electrophysiology - EEG/ENMG, NCS</h6>
+        <img src="{% static 'images\NCS.jpg'  %}" width=300 px/>
+        </div>
+        <div class="photo9">
+        <h6>4K Laparoscopy</h6>
+        <img src="{% static 'images\Laparoscopy.jpg'  %}" width=300 px/>
+        </div>
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>
+{% endblock %}
